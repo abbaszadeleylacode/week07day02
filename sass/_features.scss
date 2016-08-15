@@ -1,0 +1,52 @@
+#two{
+    height: 560px;
+    background-color: $colorGray;
+h3{
+	color: $colorBlue;
+}
+.slider2{
+	width:313px;
+	height:140px;
+	background-color:transparent;
+	border-radius: 4px;
+	margin:10px;
+	cursor: pointer;
+	
+}
+.slider2:hover{
+background-color: $colorBlue;
+color: white;
+transition: 0.8s;
+}
+p, h3{
+	padding-left: 80px;
+}
+.col-md-12{
+	margin-top: 50px;
+}
+
+}
+
+#three{
+    height: 800px;
+    background-color: white;
+
+}
+.go{
+	text-align:center;
+}
+
+.box{
+	
+	height:230px;
+	i{
+    	color: $colorBlue;
+    }
+    span{
+    	line-height: 19px;
+    	color: gray;
+    }
+    i:hover{
+    	color: lighten( $colorBlue, 20% )
+    }
+}
