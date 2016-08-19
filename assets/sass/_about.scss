@@ -31,6 +31,9 @@
 	.col-md-8{
 		margin-top: 60px;
 	}
+	.col-md-10{
+		margin-top: 90px;
+	}
 	span{
 	color: $colorBlue;
 	}
@@ -72,7 +75,7 @@
 	.col-md-6{
 		height: 519px;
 	}
-	.col-md-8{
+	.col-md-11{
 		margin-top: 55px;
 	}
 	span{
@@ -85,13 +88,19 @@ p{
 h1{
 	color:gray;
 }
+hr{
+	width: 88%;
+}
 }
 #helmet{
-	height:  588px;
+	img{
+		height: 450px;
+	}
+	height:  580px;
 	span{
 		color: $colorBlue;
 	}
-	.col-md-7{
+	.col-md-10{
 		margin-top: 80px;
 		text-align:right;
 		line-height: 25px;

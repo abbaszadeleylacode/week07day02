@@ -1,0 +1,47 @@
+
+#six{
+    height: 416px;
+    background-image: url("../../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+i{
+	margin:10px;
+}
+.social {
+	margin-top: 40px;
+	p{
+		color: white;
+		margin-top: 20px;
+	}
+}
+
+
+.social strong{
+	padding-left: 30px;
+	font-size: 20px;
+	color: white;
+}
+
+}
+.copyright{
+	margin-top:50px;
+	color: lightgray;
+	padding-left:800px;
+
+}
+
+.contacts{
+
+	margin-top: 45px;
+	strong{
+		color:white;
+	    font-size: 20px;
+	}
+	span{
+		color: white;
+	}
+	i{
+		color: $colorBlue;
+	}
+
+}

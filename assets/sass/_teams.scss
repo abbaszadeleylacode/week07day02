@@ -1,0 +1,75 @@
+#five{
+    height: 800px;
+    background-color: white;
+    .header h2{
+    	text-align:center;
+    	color: black;
+    }
+    span{
+    	color: $colorBlue;
+    }
+    p{
+    	text-align:center;
+    	line-height: 20px;
+    }
+    // .team-member{
+    // 		margin-top:50px;
+    // 	    width: 230px;
+		  //   height: 110px;
+		  //   display: none;
+    // }
+    // h5{
+    // 	padding-left:80px;
+    // 	font-size:22px;
+    // 	color: $colorBlue;
+    // }
+}
+#team-member{
+	background:#98bf21;
+	height:100px;
+	width:100px;
+	position:absolute;
+
+
+.text-container{
+	display:none;
+	width: 264px;
+	height: 268px;
+	border: 1px solid gray;
+	    z-index: -1;
+	    position:absolute;
+
+
+}
+}
+
+
+#launch{
+	height:137px;
+	background-color: $colorBlue;
+	h2{
+		color: white;
+		font-size: 45px;
+	}
+	i{
+		color:white;
+	}
+	p{
+		color:white;
+	}
+	h4{
+		text-transform: uppercase;
+		border: 1px solid white;
+		font-size: 17px;
+		width: 220px;
+		height: 40px;
+		margin-top: 40px;
+		color: white;
+		padding-top: 10px;
+		padding-left: 19px;
+	}
+	h4:hover{
+		background-color: white;
+		color: $colorBlue;
+		cursor: pointer;	}
+}

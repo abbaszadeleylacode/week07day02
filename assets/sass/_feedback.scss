@@ -1,0 +1,39 @@
+#four{
+    height: 250px;
+    background-color: white;
+    background-image: url("../../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    h2{
+    	  font-size: 42px;
+    	  margin-top: 60px;
+    }
+        spam{
+      	color: $colorBlue;
+      }
+      .col-md-8{
+      	text-align: center;
+      }
+      p{
+      	font-size: 15px;
+      	line-height: 27px;
+      }
+      i{
+      	margin-top: 100px;
+      	background:transparent;
+      }
+  }
+#feedback{
+	background-color: white;
+	span{
+		color: $colorBlue;
+	}
+p{
+	margin-top: 20px;
+}
+.margin-top{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+}

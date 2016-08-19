@@ -9,7 +9,7 @@ h3{
 	height:140px;
 	background-color:transparent;
 	border-radius: 4px;
-	margin:10px;
+	margin:5px;
 	cursor: pointer;
 	
 }
@@ -19,17 +19,11 @@ color: white;
 transition: 0.8s;
 }
 p, h3{
-	padding-left: 80px;
+	padding-left: 70px;
 }
 .col-md-12{
 	margin-top: 50px;
 }
-
-}
-
-#three{
-    height: 800px;
-    background-color: white;
 
 }
 .go{
@@ -49,4 +43,35 @@ p, h3{
     i:hover{
     	color: lighten( $colorBlue, 20% )
     }
+}
+#three{
+    height: 800px;
+    background-color: white;
+
+}
+#newsletter{
+	margin-top:-140px;
+	height:148px;
+    background-image: url("../../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    article{
+    	padding-top:25px;
+    }
+.btn{
+	background-color: transparent;
+	border: 1px solid white;
+	width:138px;
+}
+.btn:hover{
+	background-color:white;
+	color: $colorBlue;
+}
+h2{
+	font-size: 43px;
+}
+.marg{
+	margin-left:50px;
+}
 }
